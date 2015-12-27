@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sabyasachi.patlas" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <!--
+ The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but are recommended.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MaleActivity"
+            android:label="@string/title_activity_male" >
+        </activity>
+        <activity
+            android:name=".FemaleActivity"
+            android:label="@string/title_activity_female" >
+        </activity>
+        <activity
+            android:name=".playthegame"
+            android:label="@string/title_activity_playthegame" >
+        </activity>
+        <activity
+            android:name=".newconhigh"
+            android:label="@string/title_activity_newconhigh" >
+        </activity>
+        <activity
+            android:name=".eameha"
+            android:label="@string/title_activity_eameha" >
+        </activity>
+        <activity
+            android:name=".earthhappy"
+            android:label="@string/title_activity_earthhappy" >
+        </activity>
+        <activity
+            android:name=".evilearth"
+            android:label="@string/title_activity_evilearth" >
+        </activity>
+        <activity
+            android:name=".playthegame2"
+            android:label="@string/title_activity_playthegame2" >
+        </activity>
+        <activity
+            android:name=".earthcry"
+            android:label="@string/title_activity_earthcry" >
+        </activity>
+        <activity
+            android:name=".list"
+            android:label="@string/title_activity_list" >
+        </activity>
+        <activity
+            android:name=".wikimap"
+            android:label="@string/title_activity_wikimap" >
+        </activity>
+        <activity
+            android:name=".help"
+            android:label="@string/title_activity_help" >
+        </activity>
+        <activity
+            android:name=".highscores"
+            android:label="@string/title_activity_highscores" >
+        </activity>
+        <activity
+            android:name=".Wiki"
+            android:label="@string/title_activity_wiki" >
+        </activity>
+        <activity
+            android:name=".Maps"
+            android:label="@string/title_activity_maps" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyDLlLKiooJ_hbhyPd32udpFzKlwYZK4Mh0" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" >
+        </activity>
+    </application>
+
+</manifest>

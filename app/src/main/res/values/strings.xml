@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Patlas</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_male">MaleActivity</string>
+    <string name="title_activity_female">FemaleActivity</string>
+    <string name="title_activity_playthegame">playthegame</string>
+    <string name="title_activity_newconhigh">newconhigh</string>
+    <string name="title_activity_eameha">eameha</string>
+    <string name="title_activity_earthhappy">earthhappy</string>
+    <string name="title_activity_evilearth">evilearth</string>
+    <string name="title_activity_playthegame2">playthegame2</string>
+    <string name="title_activity_earthcry">earthcry</string>
+    <string name="title_activity_list">list</string>
+    <string name="title_activity_wikimap">wikimap</string>
+    <string name="title_activity_help">help</string>
+    <string name="title_activity_highscores">highscores</string>
+    <string name="highscore_text">0</string>
+    <string name="dialogue_game">Who dares to challenge me ?</string>
+    <string name="title_activity_wiki">Wiki</string>
+    <string name="title_activity_maps">Maps</string>
+    <string name="help_text"><![CDATA[Welcome to the world of Patlas! You\'ll be given the name of a place from the world atlas and you\'ll have to name another place beginning with the LAST letter of the given place. This\'ll continue until one of us runs out of places.]]></string>
+
+</resources>
